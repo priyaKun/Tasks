@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csstask6</title>
+</head>
+<style>
+   img {
+            height: 200px;
+            width: 200px;
+            border-radius: 90%;
+            display: block;
+            margin: 0 auto;
+        }
+    .inner{
+     
+        padding-left: 500px ;
+    }
+    #Username,#Password,#Login{
+        display: block;
+        height: 25px;
+        width: 500px;
+        
+    }
+    #Login{
+        height: 35px;
+        color: white;
+    }
+    #Cancel{
+        height: 35px;
+        width: 70px; 
+    }
+    #end {
+            margin-top: 20px;
+        }
+        
+        #end button {
+            box: shadow 5px; black;
+            background-color: red;
+            color: white;
+            margin-right: 270px;
+        }
+
+</style>
+<body style="font-family: tahoma;">
+    <div class="outer">
+    <img src="https://www.sukruthamayurveda.com//wp-content/uploads/2019/01/dummy.jpg" alt="picture" id="pic">
+    <br><br>
+        <div>
+            <form action="server" class="inner" id="inner">
+                <label for="Username"><b>Username</b>
+                    <input type="text" id="Username" placeholder="Enter Username">
+                </label>
+        <br>
+                <label for="Password"><b> Password</b>
+                    <input type="password" id="Password" placeholder="Enter Password">
+                </label>
+        <br>
+                    <button style="background-color: green;" id="Login"><b>Login</b></button>
+        <br>
+        <div id="end">     
+                 <input type="checkbox"id="Declaration">Remember me <br><br>
+                    <button id="Cancel"><b>Cancel</b></button>
+                    <a href="#" style="color: black;">Forgot password?</a>
+                </div>
+              
+            </form>
+</div>
+</div>
+</body>
+</html>
